@@ -17,7 +17,7 @@ if ( ! class_exists( 'MasVideos' ) ) {
          *
          * @var string
          */
-        public $version = '1.2.9';
+        public $version = '1.3.0';
 
         /**
          * The single instance of the class.
@@ -130,6 +130,13 @@ if ( ! class_exists( 'MasVideos' ) ) {
          * @var MasVideos_Movie_Playlist_Factory
          */
         public $movie_playlist_factory = null;
+
+        /**
+         * 
+         * Structured data instance.
+         */
+
+         public $structured_data;
 
         /**
          * Main MasVideos Instance.
